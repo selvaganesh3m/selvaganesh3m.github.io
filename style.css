@@ -1,0 +1,97 @@
+body {
+     background-color: hsl(30,7%,10%);
+    }
+
+#starting {
+    font-family: Jost, sans-serif;
+}
+
+#intro {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 54px;
+    letter-spacing:2px;
+    color: rgb(152,119,80);
+}
+
+#role {
+    color: hsl(0,0%,86%);
+    position: relative;
+    font-size:48px;
+    font-weight:400
+}
+
+#role::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    height: 2px;
+    background-color: rgb(74,73,71);
+  }
+
+
+#desc {
+    width: 48%;
+    color: rgb(136,136,136);
+    font-size: 30px;
+}
+
+#starting {
+    margin-top: 250px;
+    margin-left: 120px;
+}
+
+.vl {
+    margin-left: 55%;
+    border-left: 1px solid rgb(74,73,71);
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#box1 {
+    position: absolute;
+    top: 10%;
+    left: 63%;
+    width: 400px;
+    height: 560px;
+    border: 1px solid rgb(74,73,71);
+    border-radius: 1px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#box2 {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 440px;
+    height: 520px;
+    border: 1px solid rgb(74,73,71);
+    border-radius: 1px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#portpic {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+#right {
+    position: absolute;
+    top: 80px;
+    right: 37%;
+}
+
+#iam {
+    position: absolute;
+    left: 37%;
+    top: 79%;
+    color: rgb(153,153,153);
+    text-transform: uppercase;
+    font-family: Jost, sans-serif;
+}
