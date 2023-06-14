@@ -44,7 +44,7 @@ body {
     /* display: flex; */
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 28%;
 }
 
 #main {
@@ -59,6 +59,8 @@ body {
 #description {
     line-height: 1.8;
     font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 img {
@@ -104,7 +106,7 @@ img {
     }
 
     #about {
-        width: 100%;
+        width: 90%;
     }
 
     .footer {
@@ -116,7 +118,11 @@ img {
         padding: 23px;
 
     }
+}
 
-
-
+@media screen and (max-width: 700px) {
+    .sub-heading {
+        font-size: 18px;
+        text-align: left;
+    }
 }
