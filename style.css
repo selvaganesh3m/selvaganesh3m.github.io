@@ -120,7 +120,7 @@ img {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 730px) {
     .sub-heading {
         font-size: 16px;
         text-align: left;
